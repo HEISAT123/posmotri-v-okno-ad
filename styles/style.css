@@ -116,6 +116,8 @@ fieldset {
 }
 
 .result__video-container {
+  display: flex;
+  position: relative;
   width: 711px;
   height: 386px;
   opacity: 1;
@@ -219,6 +221,11 @@ fieldset {
   height: 15px;
   width: 15px;
   background-color: #fff;
+}
+
+.search-form__checkbox:focus-visible + .search-form__pseudo-checkbox{
+  outline: 1px solid white;
+  outline-offset: 1px;
 }
 
 .search-form__label:hover {
