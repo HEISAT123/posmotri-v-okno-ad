@@ -76,6 +76,11 @@ fieldset {
   margin-left: 2px;
 }
 
+.more-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .more-button:focus-visible {
   outline: 1px solid white;
   outline-offset: 1px;
@@ -183,7 +188,6 @@ fieldset {
 .search-form__textfield:focus-visible {
   outline: 1px solid white;
 }
-
 
 .search-form__textfield::placeholder {
   color: #fff;
